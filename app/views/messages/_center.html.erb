@@ -5,7 +5,7 @@
     </div>
     <div class="login-user">
       <div class="user-name">
-          <%= link_to "高山", '#'%>
+          <%= link_to current_user.name, edit_user_path(current_user) %>
       </div>
       <div class="room-create">
       <%# userが先生の時だけ表示する %>
