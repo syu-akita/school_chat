@@ -9,6 +9,8 @@ class User < ApplicationRecord
   validates :group_id, numericality: { other_than: 1 }
   validates :status_id, numericality: { other_than: 1 }
 
+  has_many :room_users
+  has_many :rooms, through: :room_users
   extend ActiveHash::Associations::ActiveRecordExtensions
   belongs_to :group
   belongs_to :status

@@ -20,6 +20,11 @@
       ルーム内ユーザー一覧
     </div>
     <div class="member-list">
+      <% current_user.rooms.each do |room| %>
+        <div class="user-name">
+          <%= room.name %>
+        </div>
+      <% end %>
     </div>
   </div>
 </div>
