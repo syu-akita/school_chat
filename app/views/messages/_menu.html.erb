@@ -17,14 +17,17 @@
     <div class="menu-name">
       <a href="#">病院</a>
     </div>
+    <% if user_signed_in?%>
       <div class="menu-name">
-      <%= link_to 'ログアウト', "#", class: "logout" %>
-    </div>
-    <div class="menu-name">
-      <%= link_to 'ログイン', "#" %>
-    </div>
-    <div class="menu-name">
-      <%= link_to '新規登録', "#" %>
-    </div>
+      <%= link_to 'ログアウト', destroy_user_session_path,method: :delete, class: "logout" %>
+      </div>
+    <% else %>
+      <div class="menu-name">
+        <%= link_to 'ログイン', new_user_session_path %>
+      </div>
+      <div class="menu-name">
+        <%= link_to '新規登録',  new_user_registration_path %>
+      </div>
+    <% end %>
   </div>
 </div>
