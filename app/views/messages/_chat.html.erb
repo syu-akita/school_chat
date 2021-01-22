@@ -1,11 +1,9 @@
 <div class="chat-header">
-  <% current_user.rooms.each do |room| %>
     <div class="room">
       <div class="room-name">
-        <%= room.name %>
+        <%= current_user.rooms.name %>
       </div>
     </div>
-  <% end %>
 </div>
 <div class="messages">
   <div class="message">

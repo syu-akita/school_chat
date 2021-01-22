@@ -1,0 +1,33 @@
+<div class="menu">
+  <div class="menu-header">
+    <div class="himage-header">
+      <%= image_tag "bird_densyobato.png", class:"bird-icon" , width:'90%', height:'60%'%>
+    </div>
+    <div class="menu-notation">
+      メニュー
+    </div>
+  </div>
+  <div class="menu-bar">
+    <div class="menu-name">
+      <a href="#">ルーム一覧</a>
+    </div>
+    <div class="menu-name">
+      <a href="#">カレンダー</a>
+    </div>
+    <div class="menu-name">
+      <a href="#">病院</a>
+    </div>
+    <% if user_signed_in?%>
+      <div class="menu-name">
+      <%= link_to 'ログアウト', destroy_user_session_path,method: :delete, class: "logout" %>
+      </div>
+    <% else %>
+      <div class="menu-name">
+        <%= link_to 'ログイン', new_user_session_path %>
+      </div>
+      <div class="menu-name">
+        <%= link_to '新規登録',  new_user_registration_path %>
+      </div>
+    <% end %>
+  </div>
+</div>
