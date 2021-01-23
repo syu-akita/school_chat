@@ -17,9 +17,14 @@
   </div>
   <div class="center-bottom">
     <div class="member">
-      ルーム内ユーザー一覧
+      ルーム一覧
     </div>
     <div class="member-list">
+      <% current_user.rooms.each do |room| %>
+        <div class="user-name">
+          <a href="#"><%= room.name %></a>
+        </div>
+      <% end %>
     </div>
   </div>
 </div>
