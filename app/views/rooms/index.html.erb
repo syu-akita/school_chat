@@ -1,13 +1,8 @@
 <div class="wrapper">
   <div class="side-bar">
-    <%= render "menu" %>
+    <%= render "messages/menu" %>
   </div>
-  <% if user_signed_in? %>
-    <div class="center-bar">
-      <%= render "center" %>
+  <div class="center-bar">
+      <%= render "messages/center" %>
     </div>
-    <div class="chat">
-      <%= render "messages/chat" %>
-    </div>
-  <% end %>
 </div>

@@ -9,7 +9,7 @@
       </div>
       <div class="room-create">
       <%# userが先生の時だけ表示する %>
-        <% if current_user.status == 2 %>
+        <% if current_user.status != 3%>
           <%= link_to "ルームの作成", new_room_path %>
         <% end %>
       </div>
@@ -17,9 +17,14 @@
   </div>
   <div class="center-bottom">
     <div class="member">
-      ルーム内ユーザー一覧
+      ルーム一覧
     </div>
     <div class="member-list">
+      <% current_user.rooms.each do |room| %>
+        <div class="user-name">
+          <%= link_to room.name, room_messages_path(room) %>
+        </div>
+      <% end %>
     </div>
   </div>
 </div>
