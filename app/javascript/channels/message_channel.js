@@ -9,11 +9,15 @@ consumer.subscriptions.create("MessageChannel", {
   },
 
   received(data) {
+    const  japanStandardTime = new Date().toLocaleString({ timeZone: 'Asia/Tokyo' });
     const html = `
     <div class="message">
       <div class="upper-message">
         <div class="messenger">
           ${data.user.name}
+        </div>
+        <div class="send-time">
+          ${japanStandardTime}
         </div>
       </div>
       <div class="lower-message">
@@ -24,7 +28,7 @@ consumer.subscriptions.create("MessageChannel", {
     </div>`;
     const messages = document.getElementById('messages');
     const newMessage = document.getElementById('message_content');
-    messages.insertAdjacentHTML('afterbegin', html);
+    messages.insertAdjacentHTML('beforeend', html);
     newMessage.value = '';
   }
 });
