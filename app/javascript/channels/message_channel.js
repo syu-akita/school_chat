@@ -2,7 +2,6 @@ import consumer from "./consumer"
 
 consumer.subscriptions.create("MessageChannel", {
   connected() {
-    // Called when the subscription is ready for use on the server
   },
 
   disconnected() {
@@ -10,6 +9,17 @@ consumer.subscriptions.create("MessageChannel", {
   },
 
   received(data) {
-    // Called when there's incoming data on the websocket for this channel
+    const html = `
+    <div class="message-content">
+    ${data.message.content}
+   </div>`;
+    const messages = document.getElementById('messages');
+    const newMessage = document.getElementById('message_content');
+    messages.insertAdjacentHTML('afterbegin', html);
+    newMessage.value = '';
   }
 });
+
+
+
+// htmlは変更する

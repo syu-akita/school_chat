@@ -9,7 +9,7 @@ class MessagesController < ApplicationController
     @room = Room.find(params[:room_id])
     @message = @room.messages.new(message_params)
     if @message.save
-      redirect_to room_messages_path(@room)
+      ActionCable.server.broadcast  'message_channel', message: @message
     else
       @messages = @room.messages.includes(:user)
       render :index
@@ -21,4 +21,9 @@ class MessagesController < ApplicationController
   def message_params
     params.require(:message).permit(:content, :image).merge(user_id: current_user.id)
   end
+
+  # def image_java
+  #   if message.image.attached?
+  #   end
+  # end
 end
