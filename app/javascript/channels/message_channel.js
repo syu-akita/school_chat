@@ -24,12 +24,16 @@ consumer.subscriptions.create("MessageChannel", {
         <div class="message-content">
           ${data.message.content}
         </div>
+        ${data.image}
       </div>
     </div>`;
     const messages = document.getElementById('messages');
     const newMessage = document.getElementById('message_content');
+    const newImage = document.getElementById('message_image');
+    const addImage = (data.image !== null) ? `<img src="${data.image}">` : ''
     messages.insertAdjacentHTML('beforeend', html);
     newMessage.value = '';
+    newImage.value = '';
   }
 });
 

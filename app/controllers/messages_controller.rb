@@ -9,7 +9,7 @@ class MessagesController < ApplicationController
     @room = Room.find(params[:room_id])
     @message = @room.messages.new(message_params)
     if @message.save
-      ActionCable.server.broadcast  'message_channel', message: @message, user: @message.user
+      ActionCable.server.broadcast  'message_channel', message: @message, user: @message.user, image: @message.image
     else
       @messages = @room.messages.includes(:user)
       render :index
