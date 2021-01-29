@@ -92,4 +92,5 @@
 .opinions-subject {
   color: black;
   text-decoration: none;
+  z-index: 10;
 }
