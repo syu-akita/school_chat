@@ -4,11 +4,7 @@
 }
 .opinion-header {
   width: 100%;
-<<<<<<< HEAD
-  height: 50px;
-=======
   height: 100px;
->>>>>>> parent of e680af1... Revert "Merge pull request #8 from syu-akita/意見ボックスの作成"
   border-bottom: 1px solid #ddd;
 }
 .opinion-header h2 {
@@ -18,8 +14,6 @@
   font-size: 20px;
   font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
 }
-<<<<<<< HEAD
-=======
 .header-bottom {
   height: 50px;
   background-color: #ccffff;
@@ -29,7 +23,6 @@
   background-color: #ffff66;
   border-bottom: 1px solid #FF82B2;
 }
->>>>>>> parent of e680af1... Revert "Merge pull request #8 from syu-akita/意見ボックスの作成"
 .opinion-box {
   width: 600px;
   height: 500px;
