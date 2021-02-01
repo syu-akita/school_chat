@@ -5,11 +5,11 @@
     </div>
     <div class="login-user">
       <div class="user-name">
-          <%= current_user.name %>
+          <%= link_to current_user.name, edit_user_path(current_user) %>
       </div>
       <div class="room-create">
       <%# userが先生の時だけ表示する %>
-        <% if current_user.status_id == 2%>
+        <% if current_user.status != 3%>
           <%= link_to "ルームの作成", new_room_path %>
         <% end %>
       </div>

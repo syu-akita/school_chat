@@ -68,7 +68,11 @@
 }
 .user-name {
   padding: 40px 0 50px;
+}
+.user-name a {
   font-size: 20px;
+  text-decoration: none;
+  color: black;
 }
 .room-create a {
   text-decoration: none;
