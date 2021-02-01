@@ -1,0 +1,24 @@
+<div class="opinion-wrap">
+  <div class="opinion-header">
+    <div class="header-image">
+      <%= link_to image_tag("top_page.png", class:"create-image"), root_path%>
+    </div>
+    <h2>ご意見ボックス</h2>
+    <div class="header-bottom">
+      <div class="header-bottom-center"></div>
+    </div>
+  </div>
+  <%= form_with model: @opinion, local: true do |f| %>
+    <div class='opinion-box'>
+      <div class='top-opinion'>
+        <%= f.text_field :subject, class: 'title-input', placeholder: 'タイトル' %>
+      </div>
+      <div class='bottom-opinion'>
+        <%= f.text_area :text, class: 'text-area', placeholder: '本文',rows: '10'%>
+      </div>
+      <div class='option-submit'>
+        <%= f.submit '送信', class: 'opinion-btn' %>
+      </div>
+    </div>
+  <% end %>
+</div>
