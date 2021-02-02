@@ -70,6 +70,11 @@
   padding: 40px 0 50px;
   font-size: 20px;
 }
+.user-name a {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
 .room-create a {
   text-decoration: none;
   font-size: 20px;
