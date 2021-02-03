@@ -1,7 +1,7 @@
 # SchoolChat
 ### 先生と保護者のコミュニケーションツール
 
-![toppage](9a8b25abec2f3a8c34a0be82c02d15d2.png)
+<img width="1440" alt="9a8b25abec2f3a8c34a0be82c02d15d2" src="https://user-images.githubusercontent.com/75475114/106707141-1a451680-6634-11eb-928e-ac738481279a.png">
 
 
 
