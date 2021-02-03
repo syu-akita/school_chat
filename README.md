@@ -1,7 +1,7 @@
 # SchoolChat
 ### 先生と保護者のコミュニケーションツール
 
-![toppage](https://gyazo.com/9a8b25abec2f3a8c34a0be82c02d15d2)
+![toppage](9a8b25abec2f3a8c34a0be82c02d15d2.png)
 
 
 
