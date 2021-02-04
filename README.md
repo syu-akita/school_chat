@@ -28,7 +28,6 @@
 
 
 [![Image from Gyazo](https://i.gyazo.com/da7ee707b4b71e507bd2044d46b594cb.gif)](https://gyazo.com/da7ee707b4b71e507bd2044d46b594cb)
-[![Image from Gyazo](https://i.gyazo.com/aba849af861df951e8365ef61ba0f9b6.gif)](https://gyazo.com/aba849af861df951e8365ef61ba0f9b6)
 
 
 # データベース設計
