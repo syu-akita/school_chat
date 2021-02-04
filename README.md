@@ -13,6 +13,9 @@
 意見箱もあるので学校側にも気軽に意見を出すことができます。
 
 
+# :cyclone: App URL
+### **https://school-chat-0612.herokuapp.com/**
+
 
 # データベース設計
 
