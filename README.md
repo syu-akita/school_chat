@@ -27,6 +27,9 @@
 ### `type a messageにメッセージを入力し送信ボタンを押すことで非同期でメッセージを送信することができる`
 
 
+https://user-images.githubusercontent.com/75475114/106876711-5bfcbc80-671b-11eb-8f73-57d726786905.mp4
+
+
 
 # データベース設計
 
