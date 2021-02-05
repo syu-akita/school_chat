@@ -21,10 +21,14 @@
 
 ### `ユーザー登録ページからから新規登録、ログイン`
 ### `トップページに遷移する`
+[![Image from Gyazo](https://i.gyazo.com/6419a632eb4d75c9702f0515ca21472b.gif)](https://gyazo.com/6419a632eb4d75c9702f0515ca21472b)
+[![Image from Gyazo](https://i.gyazo.com/59ea5d4676b6a76042187ba434d2ada8.gif)](https://gyazo.com/59ea5d4676b6a76042187ba434d2ada8)
 ### `Statusを先生にすることでルーム作成ができるようになる`
-### `ルームの作成を選択しルームを作成する。この時ユーザーをsiftもしくはcommandを押しながら洗濯することで複数人選択できる`
+### `ルームの作成を選択しルームを作成する。この時ユーザーをsiftもしくはcommandを押しながら選択することで複数人選択できる`
 ### `ルームの作成が完了したらルーム一覧から作成したルームを選択する`
 ### `type a messageにメッセージを入力し送信ボタンを押すことで非同期でメッセージを送信することができる`
+### `画像は非同期で送れないため画像を選択し送信ボタンを押した後でリロードすることで写すことができる`
+### `
 
 
 [![Image from Gyazo](https://i.gyazo.com/da7ee707b4b71e507bd2044d46b594cb.gif)](https://gyazo.com/da7ee707b4b71e507bd2044d46b594cb)
