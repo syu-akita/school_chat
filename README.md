@@ -34,10 +34,8 @@
 [![Image from Gyazo](https://i.gyazo.com/ae73246f62b80c30c1a9e88ac0d69d37.gif)](https://gyazo.com/ae73246f62b80c30c1a9e88ac0d69d37)
 --------------------------------------------------------------------------------------------------------------------------------------
 ### `画像は非同期で送れないため画像を選択し送信ボタンを押した後でリロードすることで写すことができる`
-### `
+[![Image from Gyazo](https://i.gyazo.com/16520f9d52c1a095ed6dc00581eb9691.gif)](https://gyazo.com/16520f9d52c1a095ed6dc00581eb9691)
 
-
-[![Image from Gyazo](https://i.gyazo.com/da7ee707b4b71e507bd2044d46b594cb.gif)](https://gyazo.com/da7ee707b4b71e507bd2044d46b594cb)
 
 
 # データベース設計
