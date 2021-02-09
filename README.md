@@ -1,27 +1,46 @@
-# README
+# :sunny: SchoolChat
+### 先生と保護者のコミュニケーションツール
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<img width="1440" alt="9a8b25abec2f3a8c34a0be82c02d15d2" src="https://user-images.githubusercontent.com/75475114/106707141-1a451680-6634-11eb-928e-ac738481279a.png">
 
-Things you may want to cover:
 
-* Ruby version
+# :sunny: 概要
 
-* System dependencies
+### 子供から手紙をもらえずに困っている保護者の方
+### 連絡網を回す先生たち
 
-* Configuration
+そのような学校であるあるの悩みを解消するためにこのアプリを作成いたしました。<br>
+意見箱もあるので学校側にも気軽に意見を出すことができます。
 
-* Database creation
 
-* Database initialization
+# :cyclone: App URL
+### **https://school-chat-0612.herokuapp.com/**
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+# :computer: 利用方法
 
-* Deployment instructions
+### `ユーザー登録ページからから新規登録、ログイン`
+### `トップページに遷移する`
+[![Image from Gyazo](https://i.gyazo.com/6419a632eb4d75c9702f0515ca21472b.gif)](https://gyazo.com/6419a632eb4d75c9702f0515ca21472b)
+--------------------------------------------------------------------------------------------------------------------------------------
+[![Image from Gyazo](https://i.gyazo.com/59ea5d4676b6a76042187ba434d2ada8.gif)](https://gyazo.com/59ea5d4676b6a76042187ba434d2ada8)
+--------------------------------------------------------------------------------------------------------------------------------------
+### `Statusを先生にすることでルーム作成ができるようになる`
+### `ルームの作成を選択しルームを作成する。この時ユーザーをsiftもしくはcommandを押しながら選択することで複数人選択できる`
+[![Image from Gyazo](https://i.gyazo.com/68d87ddf514cd6d711aa541a75a172fd.gif)](https://gyazo.com/68d87ddf514cd6d711aa541a75a172fd)
+--------------------------------------------------------------------------------------------------------------------------------------
+### `ルームの作成が完了したらルーム一覧から作成したルームを選択する`
+### `type a messageにメッセージを入力し送信ボタンを押すことで非同期でメッセージを送信することができる`
+[![Image from Gyazo](https://i.gyazo.com/ae73246f62b80c30c1a9e88ac0d69d37.gif)](https://gyazo.com/ae73246f62b80c30c1a9e88ac0d69d37)
+--------------------------------------------------------------------------------------------------------------------------------------
+### `画像は非同期で送れないため画像を選択し送信ボタンを押した後でリロードすることで写すことができる`
+[![Image from Gyazo](https://i.gyazo.com/16520f9d52c1a095ed6dc00581eb9691.gif)](https://gyazo.com/16520f9d52c1a095ed6dc00581eb9691)
 
-* ...
+
+
+# データベース設計
+
+
 
 ## roomsテーブル
 
