@@ -16,6 +16,12 @@ class OpinionsController < ApplicationController
     @opinion = Opinion.find(params[:id])
   end
 
+  def destroy
+    @opinion = Opinion.find(params[:id])
+    @opinion.destroy
+    redirect_to action: :index
+  end
+
   private
 
   def opinion_params
