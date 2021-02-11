@@ -103,3 +103,8 @@
   text-decoration: none;
   z-index: 10;
 }
+.opinion-destroy {
+  margin-left: 700px;
+  text-decoration: none;
+  color: red;
+}
