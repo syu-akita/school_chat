@@ -92,6 +92,14 @@
   padding-right: 15px;
   font-size: 20px;
 }
+.opinion-delete {
+  margin-left: auto;
+  padding-right: 20px;
+}
+.opinion-destroy {
+  text-decoration: none;
+  color: red;
+}
 .opinion-text-content {
   width: 70%;
   height: 600px;
@@ -102,9 +110,4 @@
   color: black;
   text-decoration: none;
   z-index: 10;
-}
-.opinion-destroy {
-  margin-left: 700px;
-  text-decoration: none;
-  color: red;
 }
