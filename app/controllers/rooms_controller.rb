@@ -25,4 +25,11 @@ class RoomsController < ApplicationController
   def room_params
     params.require(:room).permit(:name, user_ids: [])
   end
+
+  def move_to_index
+    @room = Room.find(params[:id])
+    if @room.id == nil
+      redirect_to action: :index
+    end
+  end
 end
