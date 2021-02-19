@@ -28,8 +28,6 @@ class RoomsController < ApplicationController
 
   def move_to_index
     @room = Room.find(params[:id])
-    if @room.id == nil
-      redirect_to action: :index
-    end
+      redirect_to action: :index if @room.id == nil
   end
 end
